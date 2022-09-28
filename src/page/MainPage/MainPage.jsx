@@ -1,5 +1,7 @@
 import React from 'react'
 import { Header } from '../../components/header/header'
+import { AboutPage } from '../AboutPage/AboutPage'
+import { ProjectPage } from '../ProjectPage/ProjectPage'
 import './MainPage.scss'
 
 export const MainPage = () => {
@@ -40,6 +42,8 @@ export const MainPage = () => {
                             </div>
                         </div>
                         <div className="main__right">
+{/*                             <AboutPage />
+ */}                            <ProjectPage />
                         </div>
                     </div>
                 </main>

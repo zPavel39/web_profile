@@ -1,0 +1,37 @@
+.about {
+    background-color: #010409;
+    height: 100%;
+    &__title {
+        color: #ffff;
+        min-width: 600px;
+        font-size: 40px;
+        font-style: italic;
+        text-align: center;
+        padding: 85px 0;
+    }
+    &__caption {
+        color: #58a6ff;
+        font-size: 25px;
+        margin: 15px 15px 25px 15px;
+        text-decoration: underline;
+    }
+    &__list {
+        margin: 0px 15px;
+        padding: 15px 10px;
+        border: 1px solid #8b949e;
+        background-color: #0d1117;
+        &_year {
+            color: #ffff;
+            font-size: 20px;
+            font-style: italic;
+            margin-left: 15px;
+        }
+        &_info {
+            color: #8b949e;
+            font-size: 18px;
+            line-height: 24px;
+            padding: 15px;
+            margin-left: 15px;
+        }
+    }
+}

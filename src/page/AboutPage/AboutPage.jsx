@@ -1,37 +1,28 @@
 import React from 'react'
+import './AboutPage.scss'
 
 export const AboutPage = () => {
     return (
-        <div>
-            <div className="main__title">
+        <div className='about'>
+            <div className="about__title">
                 <h1>Pavel Golubev</h1>
                 <span>Front-End Developer</span>
             </div>
-            <div className="main__about">
-                <h2 className="about__item-title _item-title">About Me:</h2>
-                <p className="about__text">
-                    I am studying Frontend development. I want to become a specialist in this field.
-                    There is an opportunity to change my life, and I will not miss it. I started studying
-                    on my own in January of this year. To test my knowledge, I decided to take courses.
-                    At the moment I am taking 2 courses at the same time. I hope that extensive and
-                    time-consuming work will bear fruit. I am purposeful, self-study and learning in
-                    general are easy. I was familiar with programming from school and then at the institute.
-                    I want to be a competent employee of the company that will accept me.
+            <h2 className="about__caption">Education:</h2>
+            <div className="about__list">
+                <span className="about__list_year">2012 year:</span>
+                <p className="about__list_info">
+                    Coast Guard Institute of the FSB of Russia, Automated information processing and control systems (by industry), technician
                 </p>
-            </div>
-            <div className="main__education">
-                <h2 className="education__item-title _item-title">Education:</h2>
-                <div className="education__text">
-                    <span className="education__text-year">2018 year:</span>
-                    <p className="education__text-info">
-                        Kaliningrad State Technical University, Kaliningrad Faculty of Automation and Production
-                        Management, Applied Computer Science. bachelor
-                    </p>
-                    <span className="education__text-year">2022 year:</span>
-                    <p className="education__text-info">
-                        Course: Frontend Development Basics (Innopolis University)
-                    </p>
-                </div>
+                <span className="about__list_year">2018 year:</span>
+                <p className="about__list_info">
+                    Kaliningrad State Technical University, Kaliningrad Faculty of Automation and Production
+                    Management, Applied Computer Science. bachelor
+                </p>
+                <span className="about__list_year">2022 year:</span>
+                <p className="about__list_info">
+                    Frontend Development (Innopolis University)
+                </p>
             </div>
         </div>
     )
