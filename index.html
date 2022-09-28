@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,23 +8,22 @@
     <link rel="stylesheet" href="./style.css">
     <title>Portfolio</title>
 </head>
+
 <body>
-    <wraper class="wraper">
+    <div class="wraper">
         <header class="header">
             <div class="header _container">
                 <nav class="header__navigation _nav">
                     <ul class="navigation-list">
-                        <li>Contact</li>
                         <li>About Me</li>
-                        <li>Key skills</li>
+                        <li>Contact</li>
                         <li>My project</li>
-                        <li>Education</li>
                         <li>English</li>
                     </ul>
                 </nav>
             </div>
         </header>
-        <main  class="main">
+        <main class="main">
             <div class="main-content _container">
                 <div class="main__left">
                     <div class="main__img">
@@ -78,7 +78,8 @@
                         <div class="education__text">
                             <span class="education__text-year">2018 year:</span>
                             <p class="education__text-info">
-                                Kaliningrad State Technical University, Kaliningrad Faculty of Automation and Production Management, Applied Computer Science. bachelor
+                                Kaliningrad State Technical University, Kaliningrad Faculty of Automation and Production
+                                Management, Applied Computer Science. bachelor
                             </p>
                             <span class="education__text-year">2022 year:</span>
                             <p class="education__text-info">
@@ -88,35 +89,39 @@
                     </div>
                     <div class="main__project">
                         <h2 class="project__item-title _item-title">My project:</h2>
-                        <div>
-                            <p class="project__info">
-                                Проект для моего друга, рекламный сайт (html + css + JQery)
-                            </p>
-                            <a class="project__link" href="https://obrabotka39kld.ru/">https://obrabotka39kld.ru</a>
+                        <div class="project__list">
+                            <div>
+                                <p class="project__info">
+                                    Проект для моего друга, рекламный сайт (html + css + JQery)
+                                </p>
+                                <a class="project__link" href="https://obrabotka39kld.ru/">https://obrabotka39kld.ru</a>
+                            </div>
+                            <div>
+                                <p class="project__info">
+                                    Верстка макета
+                                </p>
+                                <a class="project__link"
+                                    href="https://vercel.com/zpavel39/web-site-practice">web-site-practice</a>
+                            </div>
+                            <div>
+                                <p class="project__info">
+                                    Верстка экрана входа и регистрации, реализована валидация при регистарции.
+                                </p>
+                                <a class="project__link"
+                                    href="https://web-form-practic-qi3skocxy-zpavel39.vercel.app/">web-form-practice</a>
+                            </div>
+                            <div>
+                                <p class="project__info">
+                                    Проект содежращий стек: React, Routing, Redux-Toolkit, React-redux
+                                </p>
+                                <a class="project__link"
+                                    href="https://web-form-practic-qi3skocxy-zpavel39.vercel.app/">web-form-practice</a>
+                            </div>
                         </div>
-                        <div>
-                            <p class="project__info">
-                                Верстка макета
-                            </p>
-                            <a class="project__link" href="https://vercel.com/zpavel39/web-site-practice">web-site-practice</a>
-                        </div>
-                        <div>
-                            <p class="project__info">
-                                Верстка экрана входа и регистрации, реализована валидация при регистарции.
-                            </p>
-                            <a class="project__link" href="https://web-form-practic-qi3skocxy-zpavel39.vercel.app/">web-form-practice</a>
-                        </div>
-                        <div>
-                            <p class="project__info">
-                                Проект содежращий стек: React, Routing, Redux-Toolkit, React-redux
-                            </p>
-                            <a class="project__link" href="https://web-form-practic-qi3skocxy-zpavel39.vercel.app/">web-form-practice</a>
-                        </div> 
                     </div>
                     <div class="main__code-example">
                         <h2 class="code__item-title _item-title">Code example</h2>
                         <pre class="code-example">
-
                     function removeChar(str){
                         if (str.length > 1) {
                             return str.slice(1, str.length -1)
@@ -126,7 +131,7 @@
                     }
                         </pre>
                     </div>
-                    
+
                 </div>
             </div>
         </main>
@@ -140,6 +145,7 @@
                 </nav>
             </div>
         </footer>
-    </wraper>
+    </div>
 </body>
+
 </html>
