@@ -1,0 +1,214 @@
+/*---Обнуление---*/
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+html,
+body {
+  height: 100%;
+  background: #FAFAFA;
+  line-height: 1;
+  font-size: 14px;
+  color: #000;
+  font-weight: 500;
+  font-family: Montserrat;
+}
+
+/*----header----*/
+.wraper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+._container {
+    max-width: 1100px;
+    margin: 0 auto;
+    
+}
+.header{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #3d2117;
+}
+._nav {
+    font-size: 25px;
+}
+.navigation-list {
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main{
+    display: flex;
+    align-items: stretch;
+    background-color: antiquewhite;
+    padding-bottom: 25px;
+}
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    box-shadow: 10px 7px 7px rgb(0, 0, 0, 0.3);
+}
+._item-title{
+    color: antiquewhite;
+    font-size: 25px;
+    margin: 15px 10px;
+    text-decoration: underline;
+}
+.main__contact{
+    padding-bottom: 25px;
+}
+.contact-style{
+    color:#FAFAFA;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.contact-style__item{
+    margin-bottom: 25px;
+}
+.main__right {
+    background: rgb(54, 30, 12);
+}
+.main__left {
+    background: #3d2117;
+    height: 100%;
+}
+.main__img {
+    min-height: 250px;
+}
+.main__title {
+    color: antiquewhite;
+    min-width: 600px;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    padding: 85px 0;
+}
+.main__about {
+    padding-bottom: 85px;
+}
+.about__text {
+    color:#FAFAFA;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 15px;
+    margin-left: 15px; 
+}
+.main__skils {
+    padding-bottom: 25px;
+}
+.skils-style {
+    color:#FAFAFA;
+    font-size: 17px;
+    margin-left: 10px;
+}
+.skils-style__item {
+    margin-bottom: 25px;
+}
+.main__education{
+    padding-bottom: 85px;
+}
+.education__text {
+    padding: 15px;
+}
+.education__text-year {
+    color:#FAFAFA;
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 15px;
+}
+.education__text-info {
+    color:#FAFAFA;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 15px;
+    margin-left: 15px; 
+}
+.main__code-example{
+    padding-bottom: 55px;
+}
+.code-example {
+    font-size: 20px;
+    background-color: antiquewhite;
+    margin: 30px 35px;
+}
+.main__project {
+    padding-bottom: 85px;
+}
+.project__item-title {
+}
+.project__info {
+    color:#FAFAFA;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 15px;
+    margin-left: 15px; 
+}
+.project__link {
+    display: flex;
+    justify-content: center;    
+    font-size: 25px;
+    color: antiquewhite;
+    margin: 30px 0px;
+}
+.project__link:hover{
+    color: #FAFAFA;
+    text-decoration: underline;
+    transition: transform 1s;
+}
+.project__link:active{
+    color: antiquewhite; ;
+}
+.main__english {
+    padding-bottom: 25px;
+}
+.english__info {
+    color:#FAFAFA;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.footer {
+background-color: #3d2117;
+padding: 25px 0;
+}
+.navigation__list {
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    color: #FAFAFA;
+}
+.link-git {
+    color: #fff;
+}
+.logo-rs {
+    width: 100px;
+}
