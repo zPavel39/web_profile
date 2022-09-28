@@ -59,7 +59,7 @@ body {
     font-size: 25px;
 }
 .navigation-list {
-    color: antiquewhite;
+    color: #8b949e;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -88,7 +88,7 @@ body {
     padding-bottom: 25px;
 }
 .contact-style{
-    color:#FAFAFA;
+    color:#8b949e;
     font-size: 16px;
     margin-left: 10px;
 }
@@ -106,7 +106,7 @@ body {
     min-height: 250px;
 }
 .main__title {
-    color: antiquewhite;
+    color: #ffff;
     min-width: 600px;
     font-size: 40px;
     font-style: italic;
@@ -117,7 +117,7 @@ body {
     padding-bottom: 85px;
 }
 .about__text {
-    color:#FAFAFA;
+    color:#8b949e;
     font-size: 18px;
     line-height: 24px;
     padding: 15px;
@@ -127,7 +127,7 @@ body {
     padding-bottom: 25px;
 }
 .skils-style {
-    color:#FAFAFA;
+    color:#8b949e;
     font-size: 17px;
     margin-left: 10px;
 }
@@ -147,7 +147,7 @@ body {
     margin-left: 15px;
 }
 .education__text-info {
-    color:#FAFAFA;
+    color:#8b949e;
     font-size: 18px;
     line-height: 24px;
     padding: 15px;
@@ -167,7 +167,7 @@ body {
 .project__item-title {
 }
 .project__info {
-    color:#FAFAFA;
+    color:#8b949e;
     font-size: 18px;
     line-height: 24px;
     padding: 15px;
@@ -177,7 +177,7 @@ body {
     display: flex;
     justify-content: center;    
     font-size: 25px;
-    color: antiquewhite;
+    color: #FAFAFA;
     margin: 30px 0px;
 }
 .project__link:hover{
@@ -186,15 +186,18 @@ body {
     transition: transform 1s;
 }
 .project__link:active{
-    color: antiquewhite; ;
+    color: #FAFAFA; ;
 }
 .main__english {
     padding-bottom: 25px;
 }
 .english__info {
-    color:#FAFAFA;
+    color:#8b949e;
     font-size: 16px;
     margin-left: 10px;
+}
+.code-example {
+    color: #FAFAFA;
 }
 .footer {
 background-color: #171b22;
