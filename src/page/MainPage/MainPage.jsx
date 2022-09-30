@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { Route, Routes, useNavigate } from 'react-router'
 import { Header } from '../../components/header/header'
 import { AboutPage } from '../AboutPage/AboutPage'
 import { ProjectPage } from '../ProjectPage/ProjectPage'
 import './MainPage.scss'
 
 export const MainPage = () => {
+
+    const navigate = useNavigate()
+    useEffect(() => navigate('/about'), [])
+
     return (
             <div className="wraper">
                 <Header />
@@ -17,9 +22,9 @@ export const MainPage = () => {
                             <div className="main__contact">
                                 <h2 className="main__contact-title _item-title">Contact:</h2>
                                 <ul className="contact-style">
-                                    <li className="contact-style__item">My_Telergam</li>
-                                    <li className="contact-style__item">Discord: nickname: Pavel39(@Pavel39)</li>
-                                    <li className="contact-style__item">tell.+79110708688</li>
+                                    <li className="contact-style__item">My_Telergam:&nbsp;<a href='https://t.me/PavelGolubev39rus'>Pavel*39*</a></li>
+                                    <li className="contact-style__item">Mail: p.golubev39ru@gmail.com</li>
+                                    <li className="contact-style__item"><a>tell.+79110708688</a></li>
                                 </ul>
                             </div>
                             <div className="main__skils">
@@ -42,8 +47,10 @@ export const MainPage = () => {
                             </div>
                         </div>
                         <div className="main__right">
-{/*                             <AboutPage />
- */}                            <ProjectPage />
+                            <Routes>
+                                <Route index path='/about' element={<AboutPage />} />
+                                <Route path='/project' element={<ProjectPage />} />
+                            </Routes>
                         </div>
                     </div>
                 </main>
