@@ -10,6 +10,7 @@ export const Header = () => {
                     <li><Link className='header__list_link' to='/about' >About Me</Link></li>
                     <li><Link className='header__list_link' to='/project'>My project</Link></li>
                 </ul>
+                <a href='https://github.com/zPavel39'><img src='/logo3.png' /></a>
             </nav>
         </header>
     )

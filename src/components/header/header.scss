@@ -4,8 +4,15 @@
     margin-bottom: 20px;
     background-color: #171b22;
     &__navigation {
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
         max-width: 1100px;
         margin: 0 auto;
+        img {
+            margin-right: 30px;
+            height: 40px ;
+        }
     }
     &__list {
         display: flex;
