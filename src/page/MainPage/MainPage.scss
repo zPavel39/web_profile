@@ -5,71 +5,78 @@
     flex-direction: column;
     justify-content: space-around;
 }
-._container {
-    max-width: 1100px;
-    margin: 0 auto;
-}
 .main {
-    margin: 25px;
-}
-.main-content {
-    display: flex;
-    background-color: #010409;
-    box-shadow: 10px 7px 7px rgb(0, 0, 0, 0.3);
-}
-.contact-style {
-    color: #8b949e;
-    font-size: 16px;
-    margin-left: 10px;
-}
-.contact-style__item {
-    margin-bottom: 25px;
-}
-.main__right {
-    background: #010409;
-    width: 100%;
-}
-.main__left {
-    background: #171b22;
-}
-.main__img {
-    min-height: 250px;
-}
-.main__skils {
-    padding-bottom: 25px;
-}
-.skils-style {
-    color: #8b949e;
-    font-size: 17px;
-    margin-left: 10px;
-}
-.skils-style__item {
-    margin-bottom: 20px;
-}
-.main__code-example {
-    padding-bottom: 55px;
-}
-.code-example {
-    font-size: 20px;
-    background-color: #0d1117;
-    margin: 30px 15px;
-    border: 0.1px solid #8b949e;
-}
-
-.main__english {
-    padding-bottom: 25px;
-}
-.english__info {
-    color: #8b949e;
-    font-size: 16px;
-    margin-left: 10px;
-}
-.code-example {
-    color: #fafafa;
-}
-._item-title {
-    color: #58a6ff;
-        font-size: 25px;
-        margin: 14px 10px;
-        text-decoration: underline;
+    &__content {
+        display: flex;
+        max-width: 1100px;
+        margin: 0 auto;
+        background-color: #010409;
+        box-shadow: 10px 7px 7px rgb(0, 0, 0, 0.3);
+    }
+    &__left {
+        background: #171b22;
+    }
+    &__img {
+        min-height: 150px;
+        &_foto {
+            height: 300px;
+        }
+    }
+    &__contact {
+        padding-bottom: 25px;
+        &_title {
+            color: #58a6ff;
+            font-size: 25px;
+            margin: 14px 10px;
+            text-decoration: underline;
+        }
+        &_list {
+            color: #8b949e;
+            font-size: 17px;
+        }
+        &_item {
+            color: #8b949e;
+            font-size: 17px;
+            padding: 5px;
+            &:hover {
+                background-color: #238636;
+                color: #fff;
+                border-radius: 4px;
+            }
+        }
+        &_str {
+            margin: 15px;
+        }
+    }
+    &__skils {
+        padding-bottom: 25px;
+        &_title {
+            color: #58a6ff;
+            font-size: 25px;
+            margin: 14px 10px;
+            text-decoration: underline;
+        }
+        &_list {
+            color: #8b949e;
+            font-size: 17px;
+        }
+        &_item {
+            font-size: 20px;
+            margin: 15px;
+        }
+    }
+    &__english {
+        padding-bottom: 25px;
+        &_title {
+            color: #58a6ff;
+            font-size: 25px;
+            margin: 14px 10px;
+            text-decoration: underline;
+        }
+        &_info {
+            color: #8b949e;
+            font-size: 16px;
+            margin-left: 10px;
+        }
+    }
 }
