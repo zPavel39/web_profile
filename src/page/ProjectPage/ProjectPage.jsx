@@ -8,7 +8,7 @@ export const ProjectPage = () => {
             <div className="demonstration__list">
                 <div className='demonstration__section'>
                     <p className="demonstration__info">
-                        Адаптивная верстка, рекламный сайт для моего знакомого (html + css + JQery(слайдер))
+                        Адаптивная верстка, рекламный сайт для моего знакомого (html + css + JQuery(слайдер))
                     </p>
                     <a className="demonstration__link" href="https://obrabotka39kld.ru/">https://obrabotka39kld.ru</a>
                 </div>
