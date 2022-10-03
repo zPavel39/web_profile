@@ -24,7 +24,7 @@ export const MainPage = () => {
                             <h2 className="main__contact_title">Contact:</h2>
                             <ul className="main__contact_list">
                                 <li className="main__contact_str" >My_Telergam:<a className="main__contact_item" href='https://t.me/PavelGolubev39rus'> Pavel*39*</a></li>
-                                <li className="main__contact_str">Mail:<a className="main__contact_item" href='mailto:p.golubev39ru@gmail.com'> p.golubev39ru@gmail.com</a></li>
+                                <li className="main__contact_str"><a className="main__contact_item" href='mailto:p.golubev39ru@gmail.com'> p.golubev39ru@gmail.com</a></li>
                                 <li className="main__contact_str">tell.<a className="main__contact_item" href='tell:+79110708688'>+79110708688</a></li>
                             </ul>
                         </div>
