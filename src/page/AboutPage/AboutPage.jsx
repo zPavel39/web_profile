@@ -12,7 +12,7 @@ export const AboutPage = () => {
             <div className="about__list">
                 <span className="about__list_year">2012 year:</span>
                 <p className="about__list_info">
-                    Coast Guard Institute of the FSB of Russia, Automated information processing and control systems (by industry), technician
+                    Coast Guard Institute, Automated information processing and control systems (by industry), technician
                 </p>
                 <span className="about__list_year">2018 year:</span>
                 <p className="about__list_info">
