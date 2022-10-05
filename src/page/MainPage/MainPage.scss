@@ -16,7 +16,6 @@
         background: #171b22;
     }
     &__img {
-        min-height: 150px;
         &_foto {
             height: 300px;
         }
@@ -76,5 +75,24 @@
             font-size: 16px;
             margin-left: 10px;
         }
+    }
+}
+
+@media (max-width: 550px) {
+    .main {
+        &__left {
+            width: 150px;
+        }
+        &__img {
+            &_foto {
+                height: 200px;
+            }
+        }
+        &__str {
+            margin: 15px 0px;
+        }
+       .email {
+        display: none;
+       }
     }
 }

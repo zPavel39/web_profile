@@ -34,3 +34,18 @@
         }
     }
 }
+@media (max-width: 400px) {
+    .about {
+        &__title {
+            font-size: 30px;
+            padding: 45px 0;
+        }
+        &__list {
+            margin: 5px;
+            padding: 5px 5px;
+            &_info {
+                padding: 10px 0px;
+            }
+        }
+    }
+}
