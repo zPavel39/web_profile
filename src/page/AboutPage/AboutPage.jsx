@@ -10,18 +10,17 @@ export const AboutPage = () => {
             </div>
             <h2 className="about__caption">Education:</h2>
             <div className="about__list">
-                <span className="about__list_year">2012 year:</span>
+                <span className="about__list_year">2012 год:</span>
                 <p className="about__list_info">
-                    Coast Guard Institute, Automated information processing and control systems (by industry), technician
+                    Институт береговой охраны, Автоматизированные системы обработки информации и управления (по отраслям), техник
                 </p>
-                <span className="about__list_year">2018 year:</span>
+                <span className="about__list_year">2018 год:</span>
                 <p className="about__list_info">
-                    Kaliningrad State Technical University, Kaliningrad Faculty of Automation and Production
-                    Management, Applied Computer Science. bachelor
+                    Калининградский государственный технический университет, Калининградский факультет автоматизации и производства, Прикладная информатика. бакалавр
                 </p>
-                <span className="about__list_year">2022 year:</span>
+                <span className="about__list_year">2022 год:</span>
                 <p className="about__list_info">
-                    Frontend Development (Innopolis University)
+                    Университет Иннополис, Frontend Development
                 </p>
             </div>
         </div>
