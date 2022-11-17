@@ -8,7 +8,7 @@ export const ProjectPage = () => {
             <div className="demonstration__list">
                 <div className='demonstration__section'>
                     <p className="demonstration__info">
-                        Адаптивная верстка, рекламный сайт для моего знакомого (html + css + JQuery(слайдер))
+                        Адаптивная верстка, рекламный сайт (html + css + JQuery(слайдер))
                     </p>
                     <a className="demonstration__link" href="https://obrabotka39kld.ru/">https://obrabotka39kld.ru</a>
                 </div>
@@ -24,7 +24,14 @@ export const ProjectPage = () => {
                         Реализация приложения онлайн заказа рестаранной продукции. Проект содежращий стек: React, Routing, Redux-Toolkit, React-redux
                     </p>
                     <a className="demonstration__link"
-                        href="https://web-spa-project.vercel.app/">https://web-spa-project.vercel.app/</a>
+                        href="https://web-spa-project.vercel.app/">web-spa-project.vercel.app</a>
+                </div>
+                <div className='demonstration__section'>
+                    <p className="demonstration__info">
+                    Реализация приложения отображения списка сотрудников (поиск по имени, фамилии и тегу, сортировка, информация о каждом сотруднике при клике). Проект содежращий стек: React, Routing, Redux-Toolkit, React-redux, Axios, SCSS
+                    </p>
+                    <a className="demonstration__link"
+                        href="https://search-users-project.vercel.app/">search-users-project.vercel.app</a>
                 </div>
             </div>
         </div>
