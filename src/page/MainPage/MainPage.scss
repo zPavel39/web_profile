@@ -81,15 +81,58 @@
 @media (max-width: 550px) {
     .main {
         &__left {
-            width: 150px;
+            max-width: 150px;
         }
         &__img {
             &_foto {
-                height: 200px;
+width:100%;
+               max-height: 150px;
             }
         }
         &__str {
-            margin: 15px 0px;
+            margin: 5px 0px;
+        }
+        &__contact {
+            &_title {
+               font-size: 19px
+            }
+            &_list {
+                font-size: 11px
+            }
+            &_item {
+                padding: 5px;
+                margin:0px;
+                font-size: 11px;
+            }
+            &_str {
+                width:100%;
+                margin: 0;
+                margin-bottom: 5px;
+                margin-left: 3px;
+            }
+        }
+        &__skils {
+            &_title {
+                font-size: 19px;
+                margin: 14px 10px;
+            }
+            &_list {
+                font-size: 1px;
+            }
+            &_item {
+                font-size: 15px;
+                margin: 5px 15px;
+            }
+        }
+        &__english {
+            &_title {
+                font-size: 19px;
+                margin: 14px 10px;
+            }
+            &_info {
+                font-size: 10px;
+                margin-left: 10px;
+            }
         }
        .email {
         display: none;
