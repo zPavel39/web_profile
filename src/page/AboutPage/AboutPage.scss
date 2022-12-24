@@ -49,3 +49,25 @@
         }
     }
 }
+@media (max-width: 550px) {
+    .about {
+        &__title {
+            font-size: 30px;
+            padding: 32px 0;
+        }
+        
+    }
+}
+@media (max-width: 370px) {
+    .about {
+        &__title {
+            font-size: 30px;
+            padding: 16px 0;
+        }
+        &__list {
+            &_info {
+                line-height: 19px;
+            }
+        }
+    }
+}

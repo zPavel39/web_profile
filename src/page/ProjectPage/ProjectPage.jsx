@@ -8,12 +8,6 @@ export const ProjectPage = () => {
             <div className="demonstration__list">
                 <div className='demonstration__section'>
                     <p className="demonstration__info">
-                        Адаптивная верстка, рекламный сайт (html + css + JQuery(слайдер))
-                    </p>
-                    <a className="demonstration__link" href="https://obrabotka39kld.ru/">https://obrabotka39kld.ru</a>
-                </div>
-                <div className='demonstration__section'>
-                    <p className="demonstration__info">
                         Верстка формы входа и регистрации, реализована валидация при регистарции (на чистом JS лендинг перенесен на React).
                     </p>
                     <a className="demonstration__link"
@@ -24,14 +18,20 @@ export const ProjectPage = () => {
                         Реализация приложения онлайн заказа рестаранной продукции. Проект содежращий стек: React, Routing, Redux-Toolkit, React-redux
                     </p>
                     <a className="demonstration__link"
-                        href="https://web-spa-project.vercel.app/">web-spa-project.vercel.app</a>
+                        href="https://web-spa-project.vercel.app/">web-spa-project</a>
                 </div>
                 <div className='demonstration__section'>
                     <p className="demonstration__info">
                     Реализация приложения отображения списка сотрудников (поиск по имени, фамилии и тегу, сортировка, информация о каждом сотруднике при клике). Проект содежращий стек: React, Routing, Redux-Toolkit, React-redux, Axios, SCSS
                     </p>
                     <a className="demonstration__link"
-                        href="https://search-users-project.vercel.app/">search-users-project.vercel.app</a>
+                        href="https://search-users-project.vercel.app/">search-users-project</a>
+                </div>
+                <div className='demonstration__section'>
+                    <p className="demonstration__info">
+                        ToDo List c возможностью прикрепления файла и скачивания его. Проект содежращий стек: React, Firebase, Axios, LESS
+                    </p>
+                    <a className="demonstration__link" href="https://web-todo-project.web.app/">web-todo-project</a>
                 </div>
             </div>
         </div>

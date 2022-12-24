@@ -23,7 +23,7 @@ export const MainPage = () => {
                         <div className="main__contact">
                             <h2 className="main__contact_title">Contact:</h2>
                             <ul className="main__contact_list">
-                                <li className="main__contact_str" >My_Telergam:<a className="main__contact_item" href='https://t.me/PavelGolubev39rus'> Pavel*39*</a></li>
+                                <li className="main__contact_str" >My_Telergam:<a className="main__contact_item" href='https://t.me/PavelGolubev39rus'>Pavel*39*</a></li>
                                 <li className="main__contact_str"><a className="main__contact_item email" href='mailto:p.golubev39ru@gmail.com'> p.golubev39ru@gmail.com</a></li>
                                 <li className="main__contact_str">tell.<a className="main__contact_item" href='tell:+79110708688'>+79110708688</a></li>
                             </ul>
@@ -32,12 +32,11 @@ export const MainPage = () => {
                             <h2 className="main__skils_title">Key skills:</h2>
                             <ul className="main__skils_list">
                                 <li className="main__skils_item">HTML</li>
-                                <li className="main__skils_item">CSS</li>
-                                <li className="main__skils_item">Git</li>
-                                <li className="main__skils_item">JS</li>
+                                <li className="main__skils_item">JS\TS</li>
                                 <li className="main__skils_item">SASS</li>
-                                <li className="main__skils_item">React</li>
-                                <li className="main__skils_item">Redux</li>
+                                <li className="main__skils_item">React\Next</li>
+                                <li className="main__skils_item">Redux\Mobx</li>
+                                <li className="main__skils_item">Firebase</li>
                             </ul>
                         </div>
                         <div className="main__english">
