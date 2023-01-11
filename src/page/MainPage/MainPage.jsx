@@ -3,7 +3,7 @@ import { Route, Routes, useNavigate } from 'react-router'
 import { Header } from '../../components/header/header'
 import { AboutPage } from '../AboutPage/AboutPage'
 import { ProjectPage } from '../ProjectPage/ProjectPage'
-import foto from './../../img/foto3.jpg'
+import photo from './../../img/foto3.jpg'
 import './MainPage.scss'
 
 export const MainPage = () => {
@@ -12,13 +12,13 @@ export const MainPage = () => {
     useEffect(() => navigate('/about'), [])
 
     return (
-        <div className="wraper">
+        <div className="wrapper">
             <Header />
             <main className="main">
                 <div className="main__content">
                     <div className="main__left">
                         <div className="main__img">
-                            <img className='main__img_foto' src={foto} />
+                            <img className='main__img_photo' src={photo} />
                         </div>
                         <div className="main__contact">
                             <h2 className="main__contact_title">Contact:</h2>
@@ -28,15 +28,15 @@ export const MainPage = () => {
                                 <li className="main__contact_str">tell.<a className="main__contact_item" href='tell:+79110708688'>+79110708688</a></li>
                             </ul>
                         </div>
-                        <div className="main__skils">
-                            <h2 className="main__skils_title">Key skills:</h2>
-                            <ul className="main__skils_list">
-                                <li className="main__skils_item">HTML</li>
-                                <li className="main__skils_item">JS\TS</li>
-                                <li className="main__skils_item">SASS</li>
-                                <li className="main__skils_item">React\Next</li>
-                                <li className="main__skils_item">Redux\Mobx</li>
-                                <li className="main__skils_item">Firebase</li>
+                        <div className="main__skills">
+                            <h2 className="main__skills_title">Key skills:</h2>
+                            <ul className="main__skills_list">
+                                <li className="main__skills_item">HTML</li>
+                                <li className="main__skills_item">JS\TS</li>
+                                <li className="main__skills_item">SASS</li>
+                                <li className="main__skills_item">React\Next</li>
+                                <li className="main__skills_item">Redux\Mobx</li>
+                                <li className="main__skills_item">Firebase</li>
                             </ul>
                         </div>
                         <div className="main__english">

@@ -1,4 +1,4 @@
-.wraper {
+.wrapper {
     overflow: hidden;
     height: 100%;
     display: flex;
@@ -17,7 +17,7 @@
         background: #171b22;
     }
     &__img {
-        &_foto {
+        &_photo {
             height: 300px;
         }
     }
@@ -47,7 +47,7 @@
             margin: 15px;
         }
     }
-    &__skils {
+    &__skills {
         &_title {
             color: #58a6ff;
             font-size: 25px;
@@ -82,12 +82,12 @@
 @media (max-width: 550px) {
     .main {
         &__left {
-            max-width: 150px;   
+            max-width: 150px;
         }
         &__img {
-            &_foto {
-width:100%;
-               max-height: 150px;
+            &_photo {
+                width: 100%;
+                max-height: 150px;
             }
         }
         &__str {
@@ -95,24 +95,24 @@ width:100%;
         }
         &__contact {
             &_title {
-               font-size: 19px
+                font-size: 19px;
             }
             &_list {
-                font-size: 11px
+                font-size: 11px;
             }
             &_item {
                 padding: 5px;
-                margin:0px;
+                margin: 0px;
                 font-size: 11px;
             }
             &_str {
-                width:100%;
+                width: 100%;
                 margin: 0;
                 margin-bottom: 5px;
                 margin-left: 3px;
             }
         }
-        &__skils {
+        &__skills {
             &_title {
                 font-size: 19px;
                 margin: 14px 10px;
@@ -135,8 +135,8 @@ width:100%;
                 margin-left: 10px;
             }
         }
-       .email {
-        display: none;
-       }
+        .email {
+            display: none;
+        }
     }
 }
