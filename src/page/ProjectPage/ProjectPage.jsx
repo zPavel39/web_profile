@@ -14,7 +14,7 @@ export const ProjectPage = () => {
                 </div>
                 <div className='demonstration__section'>
                     <p className="demonstration__info">
-                        Калькулятор расчета стоимости лизинга. Проект содержащий стек: React, TypeScript ( позже добавлю адаптив, проверки расчетов не обработаны)
+                        Калькулятор расчета стоимости лизинга. Проект содержащий стек: React, TypeScript.
                     </p>
                     <a className="demonstration__link" href="https://web-test-leasing-auto.vercel.app//">web-test-leasing-auto</a>
                 </div>
