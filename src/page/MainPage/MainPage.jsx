@@ -18,7 +18,7 @@ export const MainPage = () => {
                 <div className="main__content">
                     <div className="main__left">
                         <div className="main__img">
-                            <img className='main__img_photo' src={photo} />
+                            <img className='main__img_photo' src={photo} alt='MyFoto' />
                         </div>
                         <div className="main__contact">
                             <h2 className="main__contact_title">Contact:</h2>
