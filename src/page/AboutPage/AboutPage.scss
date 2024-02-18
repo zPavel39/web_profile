@@ -1,72 +1,81 @@
 .about {
-    background-color: #010409;
-    height: 100%;
-    &__title {
-        color: #ffff;
-        font-size: 40px;
-        font-style: italic;
-        text-align: center;
-        padding: 100px 0;
-    }
-    &__caption {
-        color: #58a6ff;
-        font-size: 25px;
-        margin: 35px 15px 25px 15px;
-        text-decoration: underline;
-    }
-    &__list {
-        padding: 15px 25px;
-        margin: 0 24px;
-        border: 1px solid #8b949e;
-        background-color: #0d1117;
-        &_year {
-            color: #ffff;
-            font-size: 20px;
-            font-style: italic;
-            margin-left: 15px;
-        }
-        &_info {
-            color: #8b949e;
-            font-size: 18px;
-            line-height: 24px;
-            padding: 15px;
-            margin-left: 15px;
-        }
-    }
+	background-color: #010409;
+	height: 100%;
+	&__title {
+		color: #ffff;
+		font-size: 40px;
+		font-style: italic;
+		text-align: center;
+		padding: 100px 0;
+	}
+	&__caption {
+		color: #58a6ff;
+		font-size: 25px;
+		margin: 35px 15px 25px 15px;
+		text-decoration: underline;
+	}
+	&__list {
+		padding: 15px 25px;
+		margin: 0 24px;
+		border: 1px solid #8b949e;
+		background-color: #0d1117;
+		&_year {
+			color: #ffff;
+			font-size: 20px;
+			font-style: italic;
+			margin-left: 15px;
+		}
+		&_info {
+			color: #8b949e;
+			font-size: 18px;
+			line-height: 24px;
+			padding: 15px;
+			margin-left: 15px;
+		}
+	}
+	&__listInfo {
+		margin-top: 5px;
+		color: #fff;
+		&_item {
+			margin-left: 25px;
+			list-style-type: disc;
+			color: #8b949e;
+		}
+	}
 }
 @media (max-width: 400px) {
-    .about {
-        &__title {
-            font-size: 30px;
-            padding: 45px 0;
-        }
-        &__list {
-            margin: 5px;
-            padding: 5px 5px;
-            &_info {
-                padding: 10px 0px;
-            }
-        }
-    }
+	.about {
+		&__title {
+			font-size: 30px;
+			padding: 45px 0;
+		}
+		&__list {
+			margin: 5px;
+			padding: 5px 5px;
+			&_info {
+				padding: 10px 0px;
+			}
+		}
+	}
 }
 @media (max-width: 550px) {
-    .about {
-        &__title {
-            font-size: 30px;
-            padding: 32px 0;
-        }
-    }
+	.about {
+		&__title {
+			font-size: 30px;
+			padding: 32px 0;
+		}
+	}
 }
 @media (max-width: 370px) {
-    .about {
-        &__title {
-            font-size: 30px;
-            padding: 16px 0;
-        }
-        &__list {
-            &_info {
-                line-height: 19px;
-            }
-        }
-    }
+	.about {
+		&__title {
+			font-size: 30px;
+			padding: 16px 0;
+		}
+		&__list {
+			&_info {
+				line-height: 19px;
+			}
+		}
+	}
 }
