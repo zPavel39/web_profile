@@ -1,0 +1,66 @@
+.next,
+.prev {
+	top: calc(50% - 20px);
+	position: absolute;
+	display: inline-block;
+	background: inherit;
+	border-radius: 30px;
+	user-select: none;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 18px;
+	z-index: 2;
+}
+
+.next {
+	right: 10px;
+}
+
+.prev {
+	left: 10px;
+	transform: scale(-1);
+}
+
+.slider__img {
+	width: 100% !important; /* Изображение занимает всю ширину контейнера */
+	height: 100% !important; /* Изображение занимает всю высоту контейнера */
+	object-fit: cover !important; /* Масштабируем изображение, сохраняя пропорции, обрезая лишнее */
+	position: absolute !important; /* Позиционируем изображение относительно контейнера */
+	top: 0 !important; /* Выровняем изображение по верхней границе контейнера */
+	left: 0 !important; /* Выровняем изображение по левой границе контейнера */
+	cursor: grab;
+}
+.example-container {
+	width: 450px;
+	height: 250px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: transform 0.3s ease;
+	z-index: 1;
+	/* :hover {
+		transform: scale(1.4);
+	} */
+}
+.example-container_active {
+	transform: scale(1.4); /* Масштабируем элемент при наведении */
+	transition: transform 0.3s ease;
+	position: absolute;
+	width: 650px;
+	height: 450px;
+	left: 85px;
+}
+.refresh {
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.4);
+	border-radius: 10px;
+	width: 20px;
+	height: 20px;
+	top: 10px;
+	right: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}

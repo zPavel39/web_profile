@@ -4,16 +4,25 @@ import { Header } from '../../components/header/header'
 import { AboutPage } from '../AboutPage/AboutPage'
 import { ProjectPage } from '../ProjectPage/ProjectPage'
 import photo from './../../img/foto3.jpg'
-import './MainPage.scss'
+/* import backgroundImage from '../../img/background.jpg'
+ */ import './MainPage.scss'
 
 export const MainPage = () => {
+	const [show, setShow] = React.useState(false)
+
 	const navigate = useNavigate()
 	useEffect(() => navigate('/about'), [])
 
 	return (
-		<div className='wrapper'>
+		<div
+			className='wrapper'
+			/* style={{
+				backgroundImage: `url(${backgroundImage})`,
+				objectFit: 'cover !important',
+			}} */
+		>
 			<Header />
-			<main className='main'>
+			<main className='main' onClick={() => (show ? setShow(false) : '')}>
 				<div className='main__content'>
 					<div className='main__left'>
 						<div className='main__img'>
@@ -68,7 +77,10 @@ export const MainPage = () => {
 					<div className='main__right'>
 						<Routes>
 							<Route index path='/about' element={<AboutPage />} />
-							<Route path='/project' element={<ProjectPage />} />
+							<Route
+								path='/project'
+								element={<ProjectPage show={show} setShow={setShow} />}
+							/>
 						</Routes>
 					</div>
 				</div>
